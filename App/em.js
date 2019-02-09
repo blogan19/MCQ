@@ -28,7 +28,8 @@ function checkAns(qNo){
 	document.getElementById("h"+question[qNo].qNo).style.display = "none";
 	document.getElementById("submitBtn"+question[qNo].qNo).style.display="none";
 	var select = document.getElementById("emSel"+question[qNo].qNo);
-
+	input.style.display = "none";
+	select.innerHTML = i;
 	if(ans == i){
 		select.style.backgroundColor = "green";
 		select.style.color = "white";

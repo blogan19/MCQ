@@ -8,7 +8,7 @@ var question = [{
 "o4": "Propranolol",
 "o5": "Sotalol",
 "answer": "Propranolol",
-"answerS": ""
+"answerS": "Propranolol"
 },{
 "qNo": "Question 2",
 "q": " Which of the following is the first-line recommended laxative for children as per NICE guidance?",
@@ -18,7 +18,7 @@ var question = [{
 "o4": "Macrogol",
 "o5": "Linaclotide",
 "answer": "Macrogol",
-"answerS": ""
+"answerS": "Macrogol"
 },{
 "qNo": "Question 3",
 "q": "Which of the following is not a typical adverse effects of conventional cytotoxics? ",
@@ -28,7 +28,7 @@ var question = [{
 "o4": "Diarrhoea",
 "o5": "Headaches",
 "answer": "Headaches",
-"answerS": ""
+"answerS": "Headaches"
 },{
 "qNo": "Question 4",
 "q": "Which one of the following drugs would be most likely to require a dose adjustment for a patient who is attempting to stop smoking? ",
@@ -38,7 +38,7 @@ var question = [{
 "o4": "Theophylline",
 "o5": "Fluvastatin",
 "answer": "Theophylline",
-"answerS": ""
+"answerS": "Theophylline"
 },{
 "qNo": "Question 5",
 "q": "Which of the following statements concerning treatment of threadworms is incorrect?",
@@ -48,7 +48,7 @@ var question = [{
 "o4": "Patients should be advised to maintain good hygiene standards and not to share towels",
 "o5": "Threadworms are usually visible in stool",
 "answer": "You should advise parents to ensure their children stay off school whilst they have an active threadworm infection",
-"answerS": ""
+"answerS": "You should advise parents to ensure their children stay off school whilst they have an active threadworm infection is incorrect"
 },{
 "qNo": "Question 6",
 "q": "Which of the following is the most likely cause of his acute exacerbation of COPD?",
@@ -58,7 +58,7 @@ var question = [{
 "o4": "Pseudomonas aeruginosa",
 "o5": "Moraxella catarrhalis",
 "answer": "Moraxella catarrhalis",
-"answerS": ""
+"answerS": "Moraxella catarrhalis. Although not a relatively common cause itse;g the others are rarer"
 },{
 "qNo": "Question 7",
 "q": "Which of the following medications is though to increase the risk of haemmorhagic transformation post ischaemic stroke? ",
@@ -68,7 +68,7 @@ var question = [{
 "o4": "Carbamazepine",
 "o5": "Ezetimibe",
 "answer": "Atorvastatin",
-"answerS": ""
+"answerS": "Atorvastatin"
 },{
 "qNo": "Question 8",
 "q": "Which of the following options best describes the use of Aspirin 300mg tablets orally for treatment of Kawasaki's disease at a dose of 4mg/kg",
@@ -78,7 +78,7 @@ var question = [{
 "o4": "Unlicensed special",
 "o5": "Off patent",
 "answer": "Off-label",
-"answerS": ""
+"answerS": "Off-label"
 },{
 "qNo": "Question 9",
 "q": "A patient takes Lithium (Priadel) 200mg daily for the treatment of bipolar. The consultant asks you to counsel Mr MD on his new treatment. Whilst discussing the time of taking his medication in relation to blood tests needed to check his levels, how many hours do you advise the patient to leave between taking the medication and having the blood test?",
@@ -88,7 +88,7 @@ var question = [{
 "o4": "10",
 "o5": "12",
 "answer": "12",
-"answerS": ""
+"answerS": "12"
 },{
 "qNo": "Question 10",
 "q": "A patients blood results are as follows <ul><li>Serum Sodium 120mmol&sol;L &lpar; 135-145&rpar;</li><li>Serum Potassium 3.8mmol&sol;L &lpar; 3.5-5.2&rpar;</li><li>Serum Urea 5.8mmol&sol;L &lpar; 2.5-7.5&rpar;</li><br> Which of the following medications is the most likely cause of the abnormal results?",
@@ -98,5 +98,5 @@ var question = [{
 "o4": "Simvastatin",
 "o5": "Amlodipine",
 "answer": "Citalopram",
-"answerS": ""
+"answerS": "Citalopram and other ssri's cause hyponatraemia"
 }];

@@ -8,7 +8,7 @@ var question = [{
 "o4": "Doxazosin 2mg tablets",
 "o5": "Atorvastatin 20mg tablets",
 "answer": "Finasteride 5mg tablets",
-"answerS": ""
+"answerS": "Finasteride 5mg tablets"
 },{
 "qNo": "Question 2",
 "q": "Which of the following hydrocortisone doses is equivalent to prednisolone 5mg?",
@@ -18,7 +18,7 @@ var question = [{
 "o4": "Hydrocortisone 50mg",
 "o5": "Hydrocortisone 100mg",
 "answer": "Hydrocortisone 20mg",
-"answerS": ""
+"answerS": "Hydrocortisone 20mg"
 },{
 "qNo": "Question 3",
 "q": "What time of day would you recommend a patient takes their daily dose of paroxetine?",
@@ -28,7 +28,7 @@ var question = [{
 "o4": "There is no preference",
 "o5": "In the morning",
 "answer": "In the morning",
-"answerS": ""
+"answerS": "In the morning"
 },{
 "qNo": "Question 4",
 "q": "An 80 year old male patient presents to A/E with an urinary tract infection. The patient weighs 55kg and his bloods show a serum creatinine of 160umol/L and potassium of 4.2mmol/L. Which antibiotic would be most appropriate for treating the patient?",
@@ -78,7 +78,7 @@ var question = [{
 "o4": "Metronidazole",
 "o5": "Co-trimoxazole",
 "answer": "Metronidazole",
-"answerS": ""
+"answerS": "Metronidazole"
 },{
 "qNo": "Question 9",
 "q": "Which of the following is a sedating antihistamine?",
@@ -88,7 +88,7 @@ var question = [{
 "o4": "Triprolidine",
 "o5": "Loratadine",
 "answer": "Triprolidine",
-"answerS": ""
+"answerS": "Triprolidine"
 },{
 "qNo": "Question 10",
 "q": "Which of the following is not legally required on a label for a dispensed veterinary medicinal product?",
@@ -98,5 +98,5 @@ var question = [{
 "o4": "Address that the animal is kept at",
 "o5": "Dosage and administration instructions",
 "answer": "Product license number",
-"answerS": ""
+"answerS": "Product license number"
 }];

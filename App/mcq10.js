@@ -8,7 +8,7 @@ var question = [{
 "o4": "Fostair CFC free Inhaler",
 "o5": "Salmeterol CFC free inhaler",
 "answer": "Montelukast",
-"answerS": ""
+"answerS": "Montelukast"
 },{
 "qNo": "Question 2",
 "q": "Which of the following statements is correct regarding lithium levels? ",
@@ -18,7 +18,7 @@ var question = [{
 "o4": "Samples should be taken 14 hours after the dose. The result should be between 0.1-1.2mmol/litre",
 "o5": "Samples should be taken 10 hours after the dose. The result should be between 0.1-1.2mmol/litre ",
 "answer": "Samples should be taken 12 hours after the last dose. The result should be between 0.4-1mmol/litre",
-"answerS": ""
+"answerS": "Samples should be taken 12 hours after the last dose. The result should be between 0.4-1mmol/litre"
 },{
 "qNo": "Question 3",
 "q": "Which one of the following is the preferred method of disposal for out of date prescription only medications returned to your pharmacy? ",
@@ -28,7 +28,7 @@ var question = [{
 "o4": "Wrap the medications in a secure container and place in a dustbin for domestic waste disposal",
 "o5": "Arrange for the medicines to be disposed of by an approved agent",
 "answer": "Arrange for the medicines to be disposed of by an approved agent",
-"answerS": ""
+"answerS": "Arrange for the medicines to be disposed of by an approved agent"
 },{
 "qNo": "Question 4",
 "q": "How many prescription charges would you charge for a prescription with warfarin 1mg x28, warfarin 3mg x28, warfarin 5mg x28 and amoxicillin 500mg TDS x 21",
@@ -38,7 +38,7 @@ var question = [{
 "o4": "3",
 "o5": "4",
 "answer": "2",
-"answerS": ""
+"answerS": "2"
 },{
 "qNo": "Question 5",
 "q": "Which of the following antibiotics is a folate antagonist?",
@@ -48,7 +48,7 @@ var question = [{
 "o4": "Trimethoprim",
 "o5": "Amoxicillin",
 "answer": "Trimethoprim",
-"answerS": ""
+"answerS": "Trimethoprim"
 },{
 "qNo": "Question 6",
 "q": "Which of the following is the most suitable painkiller for use whilst breastfeeding?",
@@ -58,7 +58,7 @@ var question = [{
 "o4": "Aspirin",
 "o5": "Co-dyradramol",
 "answer": "Diclofenac",
-"answerS": ""
+"answerS": "Diclofenac"
 },{
 "qNo": "Question 7",
 "q": "Which of the following is a well known effect of Sulphonylureas?",
@@ -68,7 +68,7 @@ var question = [{
 "o4": "Urinary Calculi",
 "o5": "Weight gain",
 "answer": "Weight gain",
-"answerS": ""
+"answerS": "Weight gain"
 },{
 "qNo": "Question 8",
 "q": "When should you advise a patient to start using acyclovir cream for cold sores?",
@@ -78,7 +78,7 @@ var question = [{
 "o4": "When the skin starts to flake",
 "o5": "When the affected area starts to tingle",
 "answer": "When the affected area starts to tingle",
-"answerS": ""
+"answerS": "When the affected area starts to tingle"
 },{
 "qNo": "Question 9",
 "q": "A private prescription for a prescription only medication must be retained for how long?",
@@ -88,7 +88,7 @@ var question = [{
 "o4": "3 years",
 "o5": "5 years",
 "answer": "2 years",
-"answerS": ""
+"answerS": "2 years"
 },{
 "qNo": "Question 10",
 "q": "What volume of concentrated chloroform water BP is required to prepare 100ml of chloroform water?",
@@ -98,5 +98,5 @@ var question = [{
 "o4": "25ml",
 "o5": "50ml",
 "answer": "2.5ml",
-"answerS": ""
+"answerS": "2.5ml"
 }];

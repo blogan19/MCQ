@@ -8,7 +8,7 @@ var question = [{
 "o4": "Glibenclamide",
 "o5": "Pioglitazone",
 "answer": "Pioglitazone",
-"answerS": ""
+"answerS": "Pioglitazone"
 },{
 "qNo": "Question 2",
 "q": "Which of the following is not a common side effect of oxycodone?",
@@ -18,7 +18,7 @@ var question = [{
 "o4": "Constipation",
 "o5": "Dry Mouth",
 "answer": "Cough",
-"answerS": ""
+"answerS": "Cough"
 },{
 "qNo": "Question 3",
 "q": "Which of the following test results are ideal? ",
@@ -28,7 +28,7 @@ var question = [{
 "o4": "A total cholesterol of 6.9mmol/L in a with a previous stroke",
 "o5": "None of the above",
 "answer": "None of the above",
-"answerS": ""
+"answerS": "None of the above"
 },{
 "qNo": "Question 4",
 "q": "Select the most appropriate statement regarding Direct Oral Anticoagulants",
@@ -38,7 +38,7 @@ var question = [{
 "o4": "All DOACs are safe to use in blister packs",
 "o5": "Apixaban is licensed for the prophylaxis of embolization in patient with prosthetic heart valves",
 "answer": "The dose of dabigatran should be reduced when a patient takes verapamil at the same time",
-"answerS": ""
+"answerS": "The dose of dabigatran should be reduced when a patient takes verapamil at the same time"
 },{
 "qNo": "Question 5",
 "q": "Which of the following is not a side effect of amiodarone?",
@@ -48,7 +48,7 @@ var question = [{
 "o4": "Corneal deposits",
 "o5": "Coldness of extremities",
 "answer": "Coldness of extremities",
-"answerS": ""
+"answerS": "Coldness of extremities"
 },{
 "qNo": "Question 6",
 "q": "Which of the following drug combinations is most likely to increase the risk of bone marrow depression?",
@@ -58,7 +58,7 @@ var question = [{
 "o4": "Rifampicin and ciclosporin",
 "o5": "Meropenem and sodium valproate",
 "answer": "Trimethoprim and methotrexate",
-"answerS": ""
+"answerS": "Trimethoprim and methotrexate"
 },{
 "qNo": "Question 7",
 "q": "Which of the following medications would not increase the risk of lithium toxicity?",
@@ -68,7 +68,7 @@ var question = [{
 "o4": "Amlodipine 10mg OD",
 "o5": "Eplerenone 25mg OD",
 "answer": "Amlodipine 10mg OD",
-"answerS": ""
+"answerS": "Amlodipine 10mg OD"
 },{
 "qNo": "Question 8",
 "q": "Below what renal function is metformin contraindicated?",
@@ -78,7 +78,7 @@ var question = [{
 "o4": "20ml/min",
 "o5": "15ml/min",
 "answer": "30ml/min",
-"answerS": ""
+"answerS": "30ml/min"
 },{
 "qNo": "Question 9",
 "q": "A patient visits your pharmacy complaining of a rash which starts in the upper-left region of her back, and follows a line around her body to the front. There are two blisters present in the rash. The patient describes the pain as an intense tingling similar to pins and needles. What is the most likely diagnosis?",
@@ -88,7 +88,7 @@ var question = [{
 "o4": "Eczema",
 "o5": "Rosacea",
 "answer": "Shingles",
-"answerS": ""
+"answerS": "Shingles"
 },{
 "qNo": "Question 10",
 "q": "Which of the following is a monoamine oxidase inhibitor?",
@@ -98,5 +98,5 @@ var question = [{
 "o4": "Duloxetine",
 "o5": "Clomipramine",
 "answer": "Phenelzine",
-"answerS": ""
+"answerS": "Phenelzine"
 }];

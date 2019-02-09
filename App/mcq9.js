@@ -8,7 +8,7 @@ var question = [{
 "o4": "A fall in the patients INR which is not clinically significant",
 "o5": "A clinically significant rise in his INR",
 "answer": "A clinically significant rise in his INR",
-"answerS": ""
+"answerS": "A clinically significant rise in his INR"
 },{
 "qNo": "Question 2",
 "q": "Empagliflozin is a SGLT2 inhibitor indicated for type 2 diabetes. Which of the following statements regarding empagliflozin is false?",
@@ -28,7 +28,7 @@ var question = [{
 "o4": "Diabetes",
 "o5": "Glaucoma",
 "answer": "Hypertension",
-"answerS": ""
+"answerS": "Hypertension"
 },{
 "qNo": "Question 4",
 "q": "A GP calls you for advice regarding a patient with chronic kidney disease who has developed acute gout. You are asked to recommend a suitable treatment for his gout. Which one of the following is the most appropriate medicine to recommend?",
@@ -38,7 +38,7 @@ var question = [{
 "o4": "Paracetamol",
 "o5": "Colchicine",
 "answer": "Colchicine",
-"answerS": ""
+"answerS": "Colchicine"
 },{
 "qNo": "Question 5",
 "q": "A pharmacist should advise that all members of a household need to be treated if one member is found to have:",
@@ -48,7 +48,7 @@ var question = [{
 "o4": "Impetigo",
 "o5": "Head Lice",
 "answer": "Threadworms",
-"answerS": ""
+"answerS": "Threadworm"
 },{
 "qNo": "Question 6",
 "q": "A regular patient comes into your pharmacy complaining of constipation and takes the following medication. Which is the most unlikely cause of of constipation?",
@@ -58,7 +58,7 @@ var question = [{
 "o4": "Metoclopramide 10mg TDS",
 "o5": "Amitriptyline 10mg ON",
 "answer": "Metoclopramide 10mg TDS",
-"answerS": ""
+"answerS": "Metoclopramide 10mg TDS"
 },{
 "qNo": "Question 7",
 "q": "Which option best describes the mechanism of action of gliclazide?",
@@ -68,7 +68,7 @@ var question = [{
 "o4": "Improving peripheral glucose uptake and utilisation",
 "o5": "Amitriptyline 10mg ON",
 "answer": "Reduction of hepatic glucose production by inhibiting gluconeogenesis",
-"answerS": ""
+"answerS": "Reduction of hepatic glucose production by inhibiting gluconeogenesis"
 },{
 "qNo": "Question 8",
 "q": "Which one of the following dermatological conditions can be recognised by the presence of comedones?",
@@ -78,7 +78,7 @@ var question = [{
 "o4": "Seborrhoea capitis",
 "o5": "hidradenitis suppurativa",
 "answer": "Acne Vulgaris",
-"answerS": ""
+"answerS": "Acne Vulgaris"
 },{
 "qNo": "Question 9",
 "q": "Regarding Schedule 2 Controlled Drugs, which one of the following statements is true? ",
@@ -88,7 +88,7 @@ var question = [{
 "o4": "Prescriptions must state the strength of the preparation in words and figures ",
 "o5": "Repeat prescriptions are permitted",
 "answer": "Prescriptions must specify the dose to be taken",
-"answerS": ""
+"answerS": "Prescriptions must specify the dose to be taken"
 },{
 "qNo": "Question 10",
 "q": "Which of the following medications requires initial monitoring of Thiopurine methyltransferase?",
@@ -98,5 +98,5 @@ var question = [{
 "o4": "Azathioprine",
 "o5": "Mycophenolate",
 "answer": "Azathioprine",
-"answerS": ""
+"answerS": "Azathioprine"
 }];

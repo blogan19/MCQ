@@ -8,7 +8,7 @@ var question = [{
 "o4": "Soft cheese",
 "o5": "Yeast extract",
 "answer": "Liver",
-"answerS": ""
+"answerS": "Liver"
 },{
 "qNo": "Question 2",
 "q": "Patients receiving colecalciferol should have their plasma-concentration of which of the following measured regularly?",
@@ -18,7 +18,7 @@ var question = [{
 "o4": "Serum Creatinine",
 "o5": "Calcium",
 "answer": "Calcium",
-"answerS": ""
+"answerS": "Calcium"
 },{
 "qNo": "Question 3",
 "q": "Hypokalaemia is not associated with which of the following medications?",
@@ -28,7 +28,7 @@ var question = [{
 "o4": "Salbutamol",
 "o5": "Calcium resonium",
 "answer": "Digoxin",
-"answerS": ""
+"answerS": "Digoxin"
 },{
 "qNo": "Question 4",
 "q": "The mechanism of action of nicoranil is best described as:",
@@ -38,7 +38,7 @@ var question = [{
 "o4": "A calcium channel blocker",
 "o5": "A nitric oxide donator",
 "answer": "A potassium channel activator",
-"answerS": ""
+"answerS": "A potassium channel activator"
 },{
 "qNo": "Question 5",
 "q": "Which controlled drug class is nitrazepam? ",
@@ -48,7 +48,7 @@ var question = [{
 "o4": "Schedule 2",
 "o5": "Schedule 35",
 "answer": "Schedule 4a",
-"answerS": ""
+"answerS": "Schedule 4a"
 },{
 "qNo": "Question 6",
 "q": "A mother brings their 12 year old son into your pharmacy. He has silvery scaly patches on his elbows. What is the most likely cause?",
@@ -58,7 +58,7 @@ var question = [{
 "o4": "Seborreic dermatitis",
 "o5": "Psoriasis",
 "answer": "Psoriasis",
-"answerS": ""
+"answerS": "Psoriasis"
 },{
 "qNo": "Question 7",
 "q": "Which of the following would be recommended for pain management due to cerebral metastasis?",
@@ -68,7 +68,7 @@ var question = [{
 "o4": "Beclometasone",
 "o5": "Methylprednisolone",
 "answer": "Dexamethasone",
-"answerS": ""
+"answerS": "Dexamethasone"
 },{
 "qNo": "Question 8",
 "q": "Carboxymethylcellulose is best described as",
@@ -78,7 +78,7 @@ var question = [{
 "o4": "An antioxidant",
 "o5": "A preservative",
 "answer": "A suspending agent",
-"answerS": ""
+"answerS": "A suspending agent"
 },{
 "qNo": "Question 9",
 "q": "Which of the following should be recorded in the POM register?",
@@ -88,7 +88,7 @@ var question = [{
 "o4": "All signed orders",
 "o5": "All private prescriptions",
 "answer": "All emergency supplies of prescription only medications requested by patients",
-"answerS": ""
+"answerS": "All emergency supplies of prescription only medications requested by patients"
 },{
 "qNo": "Question 10",
 "q": "A patient has recently developed tendonitis. Which one of the following medicines is the most likely drug-related cause? ",
@@ -98,5 +98,5 @@ var question = [{
 "o4": "Moxifloxacin",
 "o5": "Gabapentin",
 "answer": "Moxifloxacin",
-"answerS": ""
+"answerS": "Moxifloxacin"
 }];

@@ -8,7 +8,7 @@ var question = [{
 "o4": "Sodium Valproate",
 "o5": "Diazepam",
 "answer": "Rifampicin",
-"answerS": ""
+"answerS": "Rifampicin"
 },{
 "qNo": "Question 2",
 "q": "Which of the following is not used to treat hyperkalaemia?",
@@ -18,7 +18,7 @@ var question = [{
 "o4": "Nebulised Salbutamol",
 "o5": "Glucagon Injection",
 "answer": "Glucagon Injection",
-"answerS": ""
+"answerS": "Glucagon"
 },{
 "qNo": "Question 3",
 "q": "What does COSHH stand for? ",
@@ -28,7 +28,7 @@ var question = [{
 "o4": "Control of substances hazardous to health",
 "o5": "Control of situations hazardous to health",
 "answer": "Control of substances hazardous to health",
-"answerS": ""
+"answerS": "COSHH = Control of substances hazardous to health"
 },{
 "qNo": "Question 4",
 "q": "Which of the following regular medicines is most likely to cause swollen ankles? ",
@@ -38,7 +38,7 @@ var question = [{
 "o4": "Bendroflumethiazide 2.5mg once daily",
 "o5": "Bisoprolol 5mg once daily",
 "answer": "Amlodipine 5mg once daily",
-"answerS": ""
+"answerS": "Amlodipine 5mg once daily"
 },{
 "qNo": "Question 5",
 "q": "You are asked to recommend head lice treatment. Which of the following is incorrect?",
@@ -48,7 +48,7 @@ var question = [{
 "o4": "LIce are transmitted through head to head contact",
 "o5": "Itch is always present",
 "answer": "Itch is always present",
-"answerS": ""
+"answerS": "Itch is not always present with head lice"
 },{
 "qNo": "Question 6",
 "q": "Which of the following medications could most likely be responsible for causing constipation?",
@@ -58,7 +58,7 @@ var question = [{
 "o4": "Erythromycin",
 "o5": "Magnesium Hydroxide",
 "answer": "Verapamil",
-"answerS": ""
+"answerS": "Verapamil and other calcium channel blockers can cause constipation"
 },{
 "qNo": "Question 7",
 "q": "Mrs AF who suffers from heart failure has recently been admitted to hospital due to poor symptom control. She comes to speak to you in your pharmacy She complains to you of nausea and her vision is a little blurred. Which of the following drugs she is prescribed is the most likely to be contributing to her side effects?",
@@ -68,7 +68,7 @@ var question = [{
 "o4": "Ramipril 5mg daily",
 "o5": "Spironolactone 12.5mg daily",
 "answer": "Digoxin 125microgram daily",
-"answerS": ""
+"answerS": "Blurred vision is a common symptom of digoxin toxicity"
 },{
 "qNo": "Question 8",
 "q": " Which of the following is not prescribed at a weekly dose?",
@@ -78,7 +78,7 @@ var question = [{
 "o4": "Alendronic acid 70mg tablets",
 "o5": "Butrans patches",
 "answer": "Fentanyl patches",
-"answerS": ""
+"answerS": "Fentanyl patches"
 },{
 "qNo": "Question 9",
 "q": "A patient brings in a prescription for carbimazole. When you hand out the prescription which of the following side effects do you advise the patient to report immediately?",
@@ -88,7 +88,7 @@ var question = [{
 "o4": "Bruising",
 "o5": "Taste Disturbance",
 "answer": "Bruising",
-"answerS": ""
+"answerS": "Bruising"
 },{
 "qNo": "Question 10",
 "q": "A patient is on holiday and has forgotten their phenobarbital tablets which they take for epilepsy. How many ays legally could you supply to Mrs EF",

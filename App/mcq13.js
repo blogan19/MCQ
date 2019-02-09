@@ -8,7 +8,7 @@ var question = [{
 "o4": "Gram positive cocci",
 "o5": "Gram positive bacilli",
 "answer": "Gram positive cocci",
-"answerS": ""
+"answerS": "Gram positive cocci are most commonly found on the skin and are therefore most likely to cause line infections"
 },{
 "qNo": "Question 2",
 "q": "Which of the following antipsychotics would be suitable for a 24 year old male with an acute psychotic episode?",
@@ -18,7 +18,7 @@ var question = [{
 "o4": "Clozapine 100mg BD",
 "o5": "Trazodone 50mg TDS",
 "answer": "Olanzapine 10mg OD",
-"answerS": ""
+"answerS": "Olanzapine 10mg OD"
 },{
 "qNo": "Question 3",
 "q": "A patient has developed cholestatic jaundice. The patients LFTS were in normal range when admitted 3 weeks ago. Which of the following medications would most likely be the cause?",
@@ -28,7 +28,7 @@ var question = [{
 "o4": "Flucloxacillin",
 "o5": "Bisoprolol",
 "answer": "Flucloxacillin",
-"answerS": ""
+"answerS": "Flucloxacillin"
 },{
 "qNo": "Question 4",
 "q": "A patient asks for advice regarding the treatment of mouth ulcers. They tell you that they have felt ‘under the weather’ recently and have had a sore throat for around a week. The patients past medical history includes epilepsy, diabetes and hypertension. He takes metformin, gliclazide, ramipril and carbamazepine. Which of the following would be the best course of action?",
@@ -38,7 +38,7 @@ var question = [{
 "o4": "Refer the patient to their GP immediately as this is likely caused by his carbamazepine",
 "o5": "Advise the patient to attend Accident and Emergency straight away",
 "answer": "Refer the patient to their GP immediately as this is likely caused by his carbamazepine",
-"answerS": ""
+"answerS": "Refer the patient to their GP immediately as this is likely caused by his carbamazepine"
 },{
 "qNo": "Question 5",
 "q": "Which of the following is not a sign or symptom of tinea pedis?",
@@ -48,7 +48,7 @@ var question = [{
 "o4": "Cracked skin",
 "o5": "Red sore flaky patches of skin",
 "answer": "Discolouration of toe nails",
-"answerS": ""
+"answerS": "Discolouration of toe nails"
 },{
 "qNo": "Question 6",
 "q": "Which of the following drug combinations is known to introduce a risk of Rhabdomyolisis?",
@@ -58,7 +58,7 @@ var question = [{
 "o4": "Digoxin and bumetanide",
 "o5": "Apixaban an clarithromycin",
 "answer": "Simvastatin and bezafibrate",
-"answerS": ""
+"answerS": "Simvastatin and bezafibrate"
 },{
 "qNo": "Question 7",
 "q": "Which excipient shouldn’t be used in patients with known peanut allergy?",
@@ -68,7 +68,7 @@ var question = [{
 "o4": "Macrogol/PEG 400",
 "o5": "Arachis oil",
 "answer": "Arachis oil",
-"answerS": ""
+"answerS": "Arachis oil"
 },{
 "qNo": "Question 8",
 "q": "Which of the following statements regarding acne treatment is false?",
@@ -78,7 +78,7 @@ var question = [{
 "o4": "Female patients of child bearing age can opt out of the pregnancy prevention programme if they wish",
 "o5": "Isotretinoin should only be initiated under the supervision of a consultant dermatologist ",
 "answer": "An emergency prescription can be requested by a patient if pregnancy status is confirmed",
-"answerS": ""
+"answerS": "An emergency prescription can be requested by a patient if pregnancy status is confirmed"
 },{
 "qNo": "Question 9",
 "q": "Which of the following coritcosteroids is the drug of choice for treating addisons disease?",
@@ -88,7 +88,7 @@ var question = [{
 "o4": "Hydrocortisone",
 "o5": "Dexamethasone",
 "answer": "Hydrocortisone",
-"answerS": ""
+"answerS": "Hydrocortisone"
 },{
 "qNo": "Question 10",
 "q": "A patient presents to your pharmacy for emergency hormonal contraception. Looking at the patients record you see that the patient takes carbamazepine. Which one of the following is the most appropriate action to take?",
@@ -98,5 +98,5 @@ var question = [{
 "o4": "Provide barrier contraception",
 "o5": "Provide two tablets of levonorgesterol 1500micrograms",
 "answer": "Refer her to the GP",
-"answerS": ""
+"answerS": "Refer her to the GP"
 }];

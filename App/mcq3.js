@@ -8,7 +8,7 @@ var question = [{
 "o4": "Metformin",
 "o5": "Tiotropium",
 "answer": "Ramipril",
-"answerS": ""
+"answerS": "Ramipril"
 },{
 "qNo": "Question 2",
 "q": "A patient is admitted and you review his medication in light of a recent fall. Which of the following medicines are likely to have caused the fall?",
@@ -18,7 +18,7 @@ var question = [{
 "o4": "Paracetamol",
 "o5": "Prednisolone",
 "answer": "Gliclazide",
-"answerS": ""
+"answerS": "Gliclazide"
 },{
 "qNo": "Question 3",
 "q": "A patient is prescribed amiodarone 200mg TDS for 7days followed by 200mg BD for 7 days then 200mg OD ongoing. How many 200mg tablets are requires for 28 days supply? ",
@@ -28,7 +28,7 @@ var question = [{
 "o4": "56",
 "o5": "112",
 "answer": "42",
-"answerS": ""
+"answerS": "42"
 },{
 "qNo": "Question 4",
 "q": "Which of the following medications is unlikely to be used as initialy management of an NSTEMI?",
@@ -38,7 +38,7 @@ var question = [{
 "o4": "Spironolactone",
 "o5": "Ramipril",
 "answer": "Spironolactone",
-"answerS": "Refer to NICE guidance"
+"answerS": "Spironolactone. Refer to NICE guidance"
 },{
 "qNo": "Question 5",
 "q": "In which patient would treatment with doxycycline be inappropriate?",
@@ -48,7 +48,7 @@ var question = [{
 "o4": "A patient with COPD",
 "o5": "A breastfeeding mother",
 "answer": "A breastfeeding mother",
-"answerS": ""
+"answerS": "doxycycline should not be used in breastfeeding"
 },{
 "qNo": "Question 6",
 "q": "Which of the following regarding a schedule 3 controlled drug is false?",
@@ -58,7 +58,7 @@ var question = [{
 "o4": "All prescriptions for CD3 drugs must include a quantity in words and figures unless they are for temazepam",
 "o5": "Private prescriptions for CD3 should be written on a standardise form",
 "answer": "Records of supply for CD3 drugs must be kept in the CD register",
-"answerS": ""
+"answerS": "Records of supply for CD3 drugs must be kept in the CD register"
 },{
 "qNo": "Question 7",
 "q": "Which of the following steroid creams has the highest potency? ",
@@ -68,7 +68,7 @@ var question = [{
 "o4": "Fluocinolone acetonide 0.00625%",
 "o5": "Hydrocortisone 1%",
 "answer": "Clobetasol propionate 0.05%",
-"answerS": ""
+"answerS": "Clobetasol propionate 0.05%"
 },{
 "qNo": "Question 8",
 "q": "Which of the following is not a common symptom of vaginal thrush?",
@@ -78,7 +78,7 @@ var question = [{
 "o4": "Vulval itching",
 "o5": "Local redness",
 "answer": "Fever",
-"answerS": ""
+"answerS": "Fever"
 },{
 "qNo": "Question 9",
 "q": "Which of the following is true regarding laxatives?",
@@ -88,7 +88,7 @@ var question = [{
 "o4": "Docusate is a bulk forming laxative",
 "o5": "Co-danthramer is only indicated for use in terminally ill patients",
 "answer": "Co-danthramer is only indicated for use in terminally ill patients",
-"answerS": ""
+"answerS": "Co-danthramer is only indicated for use in terminally ill patient"
 },{
 "qNo": "Question 10",
 "q": "What is the minimum age a patient would need to be in order to supply hydrocortisone 1% over the counter?",
@@ -98,5 +98,5 @@ var question = [{
 "o4": "10 years old",
 "o5": "16 years old",
 "answer": "10 years old",
-"answerS": ""
+"answerS": "10 years old"
 }];

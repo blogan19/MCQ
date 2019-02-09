@@ -8,7 +8,7 @@ var question = [{
 "o4": "Domperidone 10mg TDS 7/7 for the treatment of nausea in a patient also taking co-beneldopa, perindopril, clopidogrel and lansoprazole",
 "o5": "A prescription for co-codamol, senna and cyclizine in a patient with COPD and heart failure.",
 "answer": "Domperidone 10mg TDS 7/7 for the treatment of nausea in a patient also taking co-beneldopa, perindopril, clopidogrel and lansoprazole",
-"answerS": ""
+"answerS": "Domperidone is the anti-emetic of choice in parkinsons disease"
 },{
 "qNo": "Question 2",
 "q": "Which of the following is not a property of thiazide diuretics?",
@@ -16,9 +16,9 @@ var question = [{
 "o2": "They can precipitate gout",
 "o3": "They can induce hypercalcaemia",
 "o4": "They can cause hyponatraemia",
-"o5": "The can induce hyperkalaemia",
-"answer": "The can induce hyperkalaemia",
-"answerS": ""
+"o5": "They can induce hyperkalaemia",
+"answer": "They can induce hyperkalaemia",
+"answerS": "hyperkalaemia is not an effect of thiazide diuretics"
 },{
 "qNo": "Question 3",
 "q": "Which one of the following is a typical symptom of GORD? ",
@@ -28,7 +28,7 @@ var question = [{
 "o4": "Epigastric pain relieved by belching ",
 "o5": "Epigastric pain which is more likely to occur when the stomach is empty ",
 "answer": "Epigastric pain described as a burning sensation behind the breastbone ",
-"answerS": ""
+"answerS": "Epigastric pain described as a burning sensation behind the breastbone"
 },{
 "qNo": "Question 4",
 "q": "You review a patient on your ward with the following blood results:<ul><li>Serum sodium 140mmol/L (137-145)</li><li>Serum potassium 6.5mmol/L (3.5-5.1)</li><li>Serum urea 7.5mmol/L (2.5-7.5)</li><li>Serum creatinine 75micromol/L (46-92)</li><li>White cell count 13.4x10<sup>9</sup>/L (4.5-11)</li><li>Platelets 162x10<sup>9</sup>/ (150-450 L)</li></ul>Which of the following medications is most likely responsible for the result?",
@@ -38,7 +38,7 @@ var question = [{
 "o4": "Furosemide",
 "o5": "Bisoprolol",
 "answer": "Eplerenone",
-"answerS": ""
+"answerS": "Eplerenone"
 },{
 "qNo": "Question 5",
 "q": "In which of the following circumstances would it be ok to disclose confidential patient information without their consent?",
@@ -48,7 +48,7 @@ var question = [{
 "o4": "To an elderly patients carer who wants you to identify a white tablet",
 "o5": "To a police officer requesting a patients address",
 "answer": "To a coroner requesting the medication history of a deceased patient ",
-"answerS": ""
+"answerS": "To a coroner requesting the medication history of a deceased patient"
 },{
 "qNo": "Question 6",
 "q": "One of your regular patients has recently started hormone replacement therapy within the past few months. Whilst performing a medicines usage review she explains that she has suffered a suspected side effect from her medication. Which one of the following would be an appropriate reason for the patient stopping HRT immediately?",
@@ -68,7 +68,7 @@ var question = [{
 "o4": "The level is slightly low and the patient should increase their daily intake of calories",
 "o5": "This is a normal level and no action is required",
 "answer": "This is a normal level and no action is required",
-"answerS": ""
+"answerS": "This is a normal level and no action is required"
 },{
 "qNo": "Question 8",
 "q": "Which of the following is not classed as a bacterial infection?",
@@ -78,7 +78,7 @@ var question = [{
 "o4": "Scabies",
 "o5": "Peritonitis",
 "answer": "Scabies",
-"answerS": ""
+"answerS": "Scabies"
 },{
 "qNo": "Question 9",
 "q": "Which of the following antibiotics would be inappropriate for a patient with an allergy to penicillin with a recorded reaction of angioedema?",
@@ -88,7 +88,7 @@ var question = [{
 "o4": "Vancomyin",
 "o5": "Co-trimoxazole",
 "answer": "Cefaclor",
-"answerS": ""
+"answerS": "Cefaclor"
 },{
 "qNo": "Question 10",
 "q": "A patients pre-dose level for gentamicin comes back at 1.5mmol/L when it should be less than 1. What would be the most appropriate advice to provide the doctor prescribing the next dose due in 24 hours?",
@@ -98,5 +98,5 @@ var question = [{
 "o4": "The next dose due in 24hours should be skipped to allow levels to return to within range",
 "o5": "Another level should be taken immediately to see if the level has reduced",
 "answer": "The dosing interval should be extended to 36 hours to allow the level to drop within range before the next dose.",
-"answerS": ""
+"answerS": "The dosing interval should be extended to 36 hours to allow the level to drop within range before the next dose."
 }];
