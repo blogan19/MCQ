@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<link rel="stylesheet" href="bootstrap.min.css">
+<script src="Jquery.js"></script>
+<script src="bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="snackbar.css">
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+<link href="toastr.css" rel="stylesheet"/>
+<script src="toastr.js"></script>
+<script type="text/javascript" src="toastStyle.js"></script>
+<style type="text/css">
+	.blue2{
+		color: #2196f3;
+	}
+	.plus{
+		text-align: center;
+		font-size: 10px;
+	}
+	.tabs-content.carousel .carousel-item { height:auto; }
+	.opac{
+		opacity: 0.6;
+	}
+	.tabs .tab a {
+  color: #457fca;
+  /*Custom Text Color*/
+}
+
+.tabs .tab a:hover {
+  color:#457fca
+  /*Custom Color On Hover*/
+}
+
+.tabs .tab a:focus.active {
+  color:#457fca;
+  /*Custom Text Color While Active*/
+  background-color: rgba(38, 166, 154, 0.2);
+  /*Custom Background Color While Active*/
+}
+
+.tabs .indicator {
+  background-color:#457fca;
+  /*Custom Color Of Indicator*/
+}
+.infoSign{
+      float: right;
+      margin-top: 10px;
+      margin-right: 10px;
+      font-size: 28px;
+      
+}
+
+</style>
+
+</head>
+<body class="grad3">
+    <nav class="navbar navbar-default grad2">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <a class="calcHeader tWhite" href="#">Appname</a>
+    </div>
+    
+  </div>
+</nav>      
+   
+
+
+
+<ul id="tabs-swipe-demo" class="tabs">
+    <li class="tab col s3"><a href="#test-swipe-4" class="active">About</a></li>
+    <li class="tab col s3"><a href="#test-swipe-1">Extended Match</a></li>
+    <li class="tab col s3"><a  href="#test-swipe-2">MCQ</a></li>
+    <li class="tab col s3"><a href="#test-swipe-3">Random</a></li>
+  </ul>
+  <div id="test-swipe-1" class="col s12">
+  		<h2 class="tWhite">Extended Matching Questions</h2>
+      <div class="container">
+	    <div class="collection">
+	        <a href="em1.html" class="collection-item waves-effect black-text">Question Set 1<span class="new badge #2196f3 blue" data-badge-caption="" id="em1"></span></a>
+          <a href="em2.html" class="collection-item waves-effect black-text">Question Set 2<span class="new badge #2196f3 blue" data-badge-caption="" id="em2"></span></a>
+          <a href="em3.html" class="collection-item waves-effect black-text">Question Set 3<span class="new badge #2196f3 blue" data-badge-caption="" id="em3"></span></a>
+          <a href="em4.html" class="collection-item waves-effect black-text">Question Set 4<span class="new badge #2196f3 blue" data-badge-caption="" id="em4"></span></a>
+          <a href="em5.html" class="collection-item waves-effect black-text">Question Set 5<span class="new badge #2196f3 blue" data-badge-caption="" id="em5"></span></a>
+          <a href="em6.html" class="collection-item waves-effect black-text">Question Set 6<span class="new badge #2196f3 blue" data-badge-caption="" id="em6"></span></a>
+          <a href="em7.html" class="collection-item waves-effect black-text">Question Set 7<span class="new badge #2196f3 blue" data-badge-caption="" id="em7"></span></a>
+          <a href="em8.html" class="collection-item waves-effect black-text">Question Set 8<span class="new badge #2196f3 blue" data-badge-caption="" id="em8"></span></a>
+          <a href="em9.html" class="collection-item waves-effect black-text">Question Set 9<span class="new badge #2196f3 blue" data-badge-caption="" id="em9"></span></a>
+          <a href="em10.html" class="collection-item waves-effect black-text">Question Set 10<span class="new badge #2196f3 blue" data-badge-caption="" id="em10"></span></a>
+          <a href="em11.html" class="collection-item waves-effect black-text">Question Set 11<span class="new badge #2196f3 blue" data-badge-caption="" id="em11"></span></a>
+          <a href="em12.html" class="collection-item waves-effect black-text">Question Set 12<span class="new badge #2196f3 blue" data-badge-caption="" id="em12"></span></a>
+	        
+	     </div>
+	  </div> 
+  </div>
+  <div id="test-swipe-2" class="col s12">
+  	<h2 class="tWhite">MCQ Questions</h2>
+      <div class="container">
+	    <div class="collection">
+	        <a href="mcq1.html" class="collection-item waves-effect black-text">Question Set 1<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="mcq1"></span></a>
+	        <a href="mcq2.html" class="collection-item waves-effect black-text">Question Set 2<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="mcq2"></a>
+          <a href="mcq3.html" class="collection-item waves-effect black-text">Question Set 3<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="mcq3"></a>
+          <a href="mcq4.html" class="collection-item waves-effect black-text">Question Set 4<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="mcq4"></a>
+          <a href="mcq5.html" class="collection-item waves-effect black-text">Question Set 5<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="mcq5"></a>
+          <a href="mcq6.html" class="collection-item waves-effect black-text">Question Set 6<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="mcq6"></a>
+          <a href="mcq7.html" class="collection-item waves-effect black-text">Question Set 7<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="mcq7"></a>
+          <a href="mcq8.html" class="collection-item waves-effect black-text">Question Set 8<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="mcq8"></a>
+          <a href="mcq9.html" class="collection-item waves-effect black-text">Question Set 9<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="mcq9"></a>
+          <a href="mcq10.html" class="collection-item waves-effect black-text">Question Set 10<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="mcq10"></a>
+          <a href="mcq11.html" class="collection-item waves-effect black-text">Question Set 11<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="mcq11"></a>
+	        <a href="mcq12.html" class="collection-item waves-effect black-text">Question Set 12<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="mcq12"></a>
+          <a href="mcq13.html" class="collection-item waves-effect black-text">Question Set 13<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="mcq13"></a>
+          <a href="mcq14.html" class="collection-item waves-effect black-text">Question Set 14<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="mcq14"></a>
+          <a href="mcq15.html" class="collection-item waves-effect black-text">Question Set 15<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="mcq15"></a>
+          <a href="mcq16.html" class="collection-item waves-effect black-text">Question Set 16<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="mcq16"></a>
+	     </div>
+	  </div> 
+  	
+  </div>
+  <div id="test-swipe-3" class="col s12">
+  	
+    <div class="row">
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-image opac">
+              <img src="pills.jpeg">
+              
+            </div>
+            <div class="card-content">
+            	<p class="textCentre">MCQ Mock Exam 
+            	<hr>
+            	 Highest Streak:<span class="new badge" data-badge-caption="" id="randomHS"></p>      
+            </div>
+            <div class="card-action">
+              <a href="testOut.html">Start Quiz</a>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div id="test-swipe-4" class="col s12">
+    <div class="row">
+  
+          <div class="container">
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title">About</span>
+                <hr>
+                <p>
+                  A collection practice pre-registration exam questions perfect for exam revision. 
+                  Test your knowledge in a wide variety of questions relevant to the pre-reg exam.
+                </p>
+                <hr>
+                <p>
+                  Take individual tests or use the random section to take a randomly generated test.
+                </p>
+              </div>
+            </div>
+          </div>
+    </div>
+  </div>
+
+
+
+
+  </div>
+
+
+
+
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript">
+  
+	
+	
+$(document).ready(function(){
+    $('.tabs').tabs({swipeable: true, onShow: resizeTab});
+    $( window ).resize(function() { resizeTab(); });
+  });
+ function resizeTab(){
+    $(".tabs-content").css('height',$('.carousel-item.active').height()+'px');
+  }
+
+
+
+   function highScores(){
+   	var mcqScores = ["mcq1","mcq2","mcq3","mcq4","mcq5","mcq6","mcq7","mcq8","mcq9","mcq10","mcq11","mcq12","mcq13","mcq14","mcq16"];
+
+	   	for(var i = 0; i < mcqScores.length; i++){
+	   		var s  = localStorage.getItem(mcqScores[i]);
+	   		if(s != null){
+	   			s = ((s/10)*100).toFixed() + "%";
+	   		}	
+	   		console.log(s);
+	   		document.getElementById(mcqScores[i]).innerHTML = s;
+	   	};
+
+	var emScores = ["em1","em2","em3","em4","em5","em6","em7","em8","em9","em10","em11","em12"];
+
+	for(var i =0; i < emScores.length; i++){
+		var em = localStorage.getItem(emScores[i]);
+    if(em != null){
+      document.getElementById(emScores[i]).innerHTML = "highest score: " + em +"/5";
+    }
+		
+	}
+
+
+   }
+   highScores();
+
+
+   function randomHs(){
+   	var s = localStorage.getItem('streak');
+   	document.getElementById('randomHS').innerHTML = s;
+
+   }
+randomHs();
+
+
+          
+</script>
+</body>
+</html>
