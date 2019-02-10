@@ -92,7 +92,7 @@ var question = [{
 },{
 "qNo": "Question 10",
 "q": "Which of the following reasons would make a prescription invalid and would therefore need to be amended by the prescriber?",
-"o1": "The age of the patient is missing from a prescription for amoxicillin 50mg caspsules for a 13 year old patient.",
+"o1": "The age of the patient is missing from a prescription for amoxicillin 500mg caspsules for a 13 year old patient.",
 "o2": "A prescription for morphine MR 10mg specifies a quantity of “supply 28 tablets”.",
 "o3": "A prescription for a short course of flucloxacillin dated 4 months prior to patient presentation",
 "o4": "The strength of tablets is missing for a prescription for tamsulosin however a dose is specified at 400micgoram OD",

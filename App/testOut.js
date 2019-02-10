@@ -163,6 +163,7 @@ function addTot() {
 function highScores(){
     var streak = localStorage.getItem('streak');
     $("#highestStreak").html(streak);
+    $("#longestStreak").html("Your longest streak is " + streak);
 
     var avg = ((get_totScore().length/get_totAnswered().length)*100).toFixed();
     if(isNaN(avg) != true){
@@ -190,7 +191,7 @@ function resetScores(){
 function endQuiz(){
     $("#container1").slideUp();
     $("#container2").show()
-    $("#endScoreCont").html(score + "/" + count);
+    $("#endScoreCont").html("You scored a total of: "+score + "/" + count);
     var perc = ((score/count)*100).toFixed();
     $(".fill").css("height", perc + "%");
     document.getElementById('scorePerc').innerHTML = perc + "%"

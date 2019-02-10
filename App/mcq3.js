@@ -26,15 +26,15 @@ var question = [{
 "o2": "28",
 "o3": "84",
 "o4": "56",
-"o5": "112",
-"answer": "42",
-"answerS": "42"
+"o5": "49",
+"answer": "49",
+"answerS": "49"
 },{
 "qNo": "Question 4",
 "q": "Which of the following medications is unlikely to be used as initialy management of an NSTEMI?",
 "o1": "Ticagrelor",
 "o2": "Aspirin",
-"o3": "Bisoprol",
+"o3": "Bisoprolol",
 "o4": "Spironolactone",
 "o5": "Ramipril",
 "answer": "Spironolactone",
@@ -43,19 +43,19 @@ var question = [{
 "qNo": "Question 5",
 "q": "In which patient would treatment with doxycycline be inappropriate?",
 "o1": "An 88 year old patient with penicillin allergy for hospital acquired pneumonia",
-"o2": "A 10 year child ",
+"o2": "An 8 year child for cellulitis",
 "o3": "A patient with stage 4 chronic kidney disease",
 "o4": "A patient with COPD",
-"o5": "A breastfeeding mother",
-"answer": "A breastfeeding mother",
-"answerS": "doxycycline should not be used in breastfeeding"
+"o5": "A 14 year old child",
+"answer": "An 8 year child for cellulitis",
+"answerS": "doxycycline should not be used in children under the age of 12"
 },{
 "qNo": "Question 6",
 "q": "Which of the following regarding a schedule 3 controlled drug is false?",
 "o1": "Prescriptions for CD schedule 3 drugs are valid for 28 days",
 "o2": "Records of supply for CD3 drugs must be kept in the CD register",
 "o3": "Emergency supplies of schedule 3 CDs is not allowed unless for phenobarbital for epilepsy ",
-"o4": "All prescriptions for CD3 drugs must include a quantity in words and figures unless they are for temazepam",
+"o4": "All prescriptions for CD3 drugs must include a quantity in words and figures",
 "o5": "Private prescriptions for CD3 should be written on a standardise form",
 "answer": "Records of supply for CD3 drugs must be kept in the CD register",
 "answerS": "Records of supply for CD3 drugs must be kept in the CD register"

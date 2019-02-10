@@ -6,7 +6,7 @@ var question = [{
 "o2": "Ramipril 5mg once daily",
 "o3": "Candesartan 8mg once daily",
 "o4": "Bendroflumethiazide 2.5mg once daily",
-"o5": "Furosemide 20mg once daily",
+"o5": "Doxazosin 4mg once daily",
 "answer": "Bendroflumethiazide 2.5mg once daily",
 "answerS": "Bendroflumethiazide 2.5mg once daily"
 },{
@@ -82,7 +82,7 @@ var question = [{
 },{
 "qNo": "Question 9",
 "q": " When dispensing a split pack of 500microgram glyceryl trinitrate tablets you should",
-"o1": "Dispense the tablets in the manufacturer’s original pack",
+"o1": "Dispense the tablets in the manufacturers original pack",
 "o2": "Put the tablets in a glass container with a child resistant cap",
 "o3": "Put the tablets in an opaque plastic container with a foil lined cap ",
 "o4": "Put the tablets into a glass container with a plastic cap and a desiccant ",

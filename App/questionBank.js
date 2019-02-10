@@ -390,7 +390,7 @@ var question = [{
 "answerS": ""
 },{
 "qNo": "Question 10",
-"q": "A patient is on holiday and has forgotten their phenobarbital tablets which they take for epilepsy. How many ays legally could you supply to Mrs EF",
+"q": "A patient is on holiday and has forgotten their phenobarbital tablets which they take for epilepsy. How many days could you supply to the patient",
 "o1": "0",
 "o2": "7",
 "o3": "28",
@@ -460,7 +460,7 @@ var question = [{
 "answerS": ""
 },{
 "qNo": "Question 7",
-"q": "Which of the following medications is though to increase the risk of haemmorhagic transformation post ischaemic stroke? ",
+"q": "Which of the following medications is thought to increase the risk of haemmorhagic transformation post ischaemic stroke? ",
 "o1": "Amlodipine",
 "o2": "Atorvastatin",
 "o3": "Sitagliptin",
@@ -691,7 +691,7 @@ var question = [{
 },{
 "qNo": "Question 10",
 "q": "Which of the following reasons would make a prescription invalid and would therefore need to be amended by the prescriber?",
-"o1": "The age of the patient is missing from a prescription for amoxicillin 50mg caspsules for a 13 year old patient.",
+"o1": "The age of the patient is missing from a prescription for amoxicillin 500mg caspsules for a 13 year old patient.",
 "o2": "A prescription for morphine MR 10mg specifies a quantity of “supply 28 tablets”.",
 "o3": "A prescription for a short course of flucloxacillin dated 4 months prior to patient presentation",
 "o4": "The strength of tablets is missing for a prescription for tamsulosin however a dose is specified at 400micgoram OD",
@@ -705,7 +705,7 @@ var question = [{
 "o2": "Ramipril 5mg once daily",
 "o3": "Candesartan 8mg once daily",
 "o4": "Bendroflumethiazide 2.5mg once daily",
-"o5": "Furosemide 20mg once daily",
+"o5": "Doxazosin 4mg once daily",
 "answer": "Bendroflumethiazide 2.5mg once daily",
 "answerS": ""
 },{
@@ -865,9 +865,9 @@ var question = [{
 "o2": "Mimics glucagon-like peptide 1",
 "o3": "Inhibition of sodium-glucose co-transporter",
 "o4": "Improving peripheral glucose uptake and utilisation",
-"o5": "Amitriptyline 10mg ON",
-"answer": "Reduction of hepatic glucose production by inhibiting gluconeogenesis",
-"answerS": ""
+"o5": "Reduction of hepatic glucose production by inhibiting gluconeogenesis",
+"answer": "Stimulates insulin secretion from the beta-cells of the islets of Langerhans",
+"answerS": "Stimulates insulin secretion from the beta-cells of the islets of Langerhans"
 },{
 "qNo": "Question 8",
 "q": "Which one of the following dermatological conditions can be recognised by the presence of comedones?",
@@ -1030,7 +1030,7 @@ var question = [{
 "answerS": ""
 },{
 "qNo": "Question 4",
-"q": "The mechanism of action of nicoranil is best described as:",
+"q": "The mechanism of action of nicorandil is best described as:",
 "o1": "A H2 receptor antagonist",
 "o2": "A potassium channel activator",
 "o3": "A beta receptor agonist",
@@ -1045,7 +1045,7 @@ var question = [{
 "o2": "Schedule 4b",
 "o3": "Schedule 3",
 "o4": "Schedule 2",
-"o5": "Schedule 35",
+"o5": "Schedule 5",
 "answer": "Schedule 4a",
 "answerS": ""
 },{

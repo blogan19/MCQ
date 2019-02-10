@@ -58,10 +58,10 @@ var question = [{
 "o4": "Pseudomonas aeruginosa",
 "o5": "Moraxella catarrhalis",
 "answer": "Moraxella catarrhalis",
-"answerS": "Moraxella catarrhalis. Although not a relatively common cause itse;g the others are rarer"
+"answerS": "Moraxella catarrhalis. Although not a relatively common cause the others are rarer"
 },{
 "qNo": "Question 7",
-"q": "Which of the following medications is though to increase the risk of haemmorhagic transformation post ischaemic stroke? ",
+"q": "Which of the following medications is thought to increase the risk of haemmorhagic transformation post ischaemic stroke? ",
 "o1": "Amlodipine",
 "o2": "Atorvastatin",
 "o3": "Sitagliptin",

@@ -1,7 +1,7 @@
 var quizName = "mcq10";
 var question = [{
 "qNo": "Question 1",
-"q": "A 4-year-old patient has recently been diagnosed with asthma. She requires a step-up in treatment from salbutamol PRN as she is not yet fully controlled. She has tried inhaled corticosteroids in the past however is unable to tolerate them.",
+"q": "A 4-year-old patient has recently been diagnosed with asthma. They require a step-up in treatment from salbutamol PRN. She has tried inhaled corticosteroids in the past however is unable to tolerate them. What would be the most appopriate step up treatment?",
 "o1": "Montelukast",
 "o2": "Prednisolone",
 "o3": "Theophylline",

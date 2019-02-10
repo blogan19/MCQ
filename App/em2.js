@@ -1,5 +1,5 @@
 var quizName = 'em2'
-var options = ["Citalopran","Clomipramine","Clozapine","Flupentixol","Duloxetine","Phenelzine","Venlafaxine","Mirtazapine",];
+var options = ["Citalopram","Clomipramine","Clozapine","Flupentixol","Duloxetine","Phenelzine","Venlafaxine","Mirtazapine",];
 var question = [{
 "qNo": "Question 1",
 "q": "Which medications is available as a depot preparation?",

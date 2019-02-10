@@ -31,7 +31,7 @@ var question = [{
 "answerS": "Digoxin"
 },{
 "qNo": "Question 4",
-"q": "The mechanism of action of nicoranil is best described as:",
+"q": "The mechanism of action of nicorandil is best described as:",
 "o1": "A H2 receptor antagonist",
 "o2": "A potassium channel activator",
 "o3": "A beta receptor agonist",
@@ -46,7 +46,7 @@ var question = [{
 "o2": "Schedule 4b",
 "o3": "Schedule 3",
 "o4": "Schedule 2",
-"o5": "Schedule 35",
+"o5": "Schedule 5",
 "answer": "Schedule 4a",
 "answerS": "Schedule 4a"
 },{

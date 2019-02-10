@@ -66,9 +66,9 @@ var question = [{
 "o2": "Mimics glucagon-like peptide 1",
 "o3": "Inhibition of sodium-glucose co-transporter",
 "o4": "Improving peripheral glucose uptake and utilisation",
-"o5": "Amitriptyline 10mg ON",
-"answer": "Reduction of hepatic glucose production by inhibiting gluconeogenesis",
-"answerS": "Reduction of hepatic glucose production by inhibiting gluconeogenesis"
+"o5": "Reduction of hepatic glucose production by inhibiting gluconeogenesis",
+"answer": "Stimulates insulin secretion from the beta-cells of the islets of Langerhans",
+"answerS": "Stimulates insulin secretion from the beta-cells of the islets of Langerhans"
 },{
 "qNo": "Question 8",
 "q": "Which one of the following dermatological conditions can be recognised by the presence of comedones?",

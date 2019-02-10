@@ -55,9 +55,9 @@
   
       
         <button type="button" class="btn btn-block bgWhite" onclick="setQuestions();setQuizLength(10);switchDisplay()">10 Questions</button>
-        <button type="button" class="btn btn-block bgWhite" onclick="setQuestions();setQuizLength(3);switchDisplay()">20 Questions</button>
-        <button type="button" class="btn btn-block bgWhite" onclick="setQuestions();setQuizLength(4);switchDisplay()">50 Questions</button>
-        <button type="button" class="btn btn-block bgWhite" onclick="setQuestions();setQuizLength(4);switchDisplay()">100 Questions</button>     
+        <button type="button" class="btn btn-block bgWhite" onclick="setQuestions();setQuizLength(20);switchDisplay()">20 Questions</button>
+        <button type="button" class="btn btn-block bgWhite" onclick="setQuestions();setQuizLength(50);switchDisplay()">50 Questions</button>
+        <button type="button" class="btn btn-block bgWhite" onclick="setQuestions();setQuizLength(100);switchDisplay()">100 Questions</button>     
   </div>
 
 </div>
@@ -78,19 +78,24 @@
     <label for="r5" id="l5"></label>
   </div>
 </div>
-<div id="container2" class="container marginTop2 invis">
-  <h3 class="tWhite textCentre">Quiz Finished</h3>
-  <div id="endScoreCont" class="tWhite textCentre"></div>
-  <div class="textCentre">
+<div id="container2" class="container marginTop2 invis textCentre">
+  <h2 class="tWhite textCentre">Quiz Finished</h2>
+  <div id="endScoreCont" class="tWhite textCentre"></div><br>
+  <div id="longestStreak" class="tWhite"></div>
+  <div id="endPerc" class="tWhite textCentre"></div>
+  <div class="textCentre marginTop2">
     <div class="circle pulse">
       <div class="fill">
       </div>
       <h3 class="score" id="scorePerc"></h3>
     </div>
   </div>
+  <br><br><br>
     <a href="index.html"><button class="btn btn-block"> Exit</button></a>
 
 </div>
+
+
 
 
 <!-- Modal -->

@@ -91,7 +91,7 @@ var question = [{
 "answerS": "Bruising"
 },{
 "qNo": "Question 10",
-"q": "A patient is on holiday and has forgotten their phenobarbital tablets which they take for epilepsy. How many ays legally could you supply to Mrs EF",
+"q": "A patient is on holiday and has forgotten their phenobarbital tablets which they take for epilepsy. How many days could you supply to the patient?",
 "o1": "0",
 "o2": "7",
 "o3": "28",
