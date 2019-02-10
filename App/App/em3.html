@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<script src="Jquery.js"></script>
+	<script src="bootstrap.min.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="snackbar.css">
+  <link href="toastr.css" rel="stylesheet"/>
+  <script src="toastr.js"></script>
+  <script type="text/javascript" src="toastStyle.js"></script>
+</head>
+
+
+<body class="grad3">
+<nav class="navbar navbar-fixed-top nav grad2">
+	<a href="index.html"><button type="button" class="btn backBtn"> <span class="glyphicon glyphicon-menu-left"></span></button></a>
+	<div class="calcHeaderMCQ">Question Set 3</div>
+  <div class="scoreContMCQ invis" id="scoreDisp"></div>
+</nav>
+
+<div class="container marginTop2" id="qCont">
+  <h3 class="tWhite"> Extended Matching Options:</h3>
+  <table>
+      <tbody>
+        <tr class="emTR">
+          <td id="tO1"></td>
+          <td id="tO2"></td>
+        </tr>
+        <tr class="emTR">
+          <td id="tO3"></td>
+          <td id="tO4"></td>
+        </tr>
+        <tr class="emTR">
+          <td id="tO5"></td>
+          <td id="tO6"></td>
+        </tr>
+        <tr class="emTR">
+          <td id="tO7"></td>
+          <td id="tO8"></td>
+        </tr>
+      </tbody>
+    </table><br>
+    <div class="well font10 textCentre">Each option may be used once, more than once or not at all</div>
+</div>
+<div class="lineBreak"></div>
+
+<div id="container1" class="container"></div>
+
+<div class="container  marginTop2 invis" id="feedbackDiv">
+  <h1 class="tWhite">Question Set Finished</h1>
+  <h2 class="tWhite" id="scoreFin"></h2>
+  <h4 id="scorePerc" class="tWhite"></h4>
+  <h5 id="highScore" class="tWhite"></h5>
+  <button class="btn btn-block grad2 tWhite" onclick="displayAnswers()"> Show Answers</button>
+  <br>
+  <div class="container invis" id="answerList"></div>
+  <button class="btn btn-block grad2 tWhite" onclick="refresh()">Retry Test  <span class="glyphicon glyphicon-refresh"></span></button><br>
+  <a href="index.html"><button class="btn btn-block"> Exit</button></a>
+  <br>
+</div>
+
+
+<script src="em3.js"></script>
+<script type="text/javascript" src="em.js"></script>
+<script src="logo.js"></script>
+
+
+</body>
+</html>

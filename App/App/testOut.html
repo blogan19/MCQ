@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<script src="Jquery.js"></script>
+	<script src="bootstrap.min.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="snackbar.css">
+  <link href="toastr.css" rel="stylesheet"/>
+  <script src="toastr.js"></script>
+  <script type="text/javascript" src="toastStyle.js"></script>
+  <style type="text/css">
+
+  </style>
+</head>
+
+
+<body class="grad3">
+
+
+<nav class="navbar navbar-default grad2">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button class="btn btnHamburger" data-toggle="collapse" data-target="#myNavbar">
+        <div class="hamburger"></div>
+        <div class="hamburger"></div>
+        <div class="hamburger"></div>
+      </button>
+
+      <a class="calcHeader tWhite" href="#">Random Quiz</a>
+      <div class="scoreCont invis" id="scoreDisp"></div>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav bgWhite">
+        <li class="bgWhite"><a href="index.html">Home</a></li> 
+        <li class="bgWhite" data-toggle="collapse" data-target="#myNavbar"><a href="#" data-toggle="modal" data-target="#highScoreModal">High Scores</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>      
+      
+    
+
+
+<div class="container marginTop3">
+  <div class="streak streakGrow invis" id="streak"></div>
+</div>
+<div class="container" id="lengthDiv">
+  <div class="marginTop3">
+    <div class="well"><h3 class="tBlue">Select Quiz Length</h3></div><br>
+  
+      
+        <button type="button" class="btn btn-block bgWhite" onclick="setQuestions();setQuizLength(10);switchDisplay()">10 Questions</button>
+        <button type="button" class="btn btn-block bgWhite" onclick="setQuestions();setQuizLength(20);switchDisplay()">20 Questions</button>
+        <button type="button" class="btn btn-block bgWhite" onclick="setQuestions();setQuizLength(50);switchDisplay()">50 Questions</button>
+        <button type="button" class="btn btn-block bgWhite" onclick="setQuestions();setQuizLength(100);switchDisplay()">100 Questions</button>     
+  </div>
+
+</div>
+       
+
+<div id="container1" class="container marginTop2 invis">
+  <div class="jumbotron questionHeader" id="q"></div>
+  <div class="form" id="form">
+    <input type="radio" name="r" class="radio" id="r1" value="o1" onclick="checkAns()">
+    <label for="r1" id="l1"></label>
+    <input type="radio" name="r" class="radio" id="r2" value="o2" onclick="checkAns()">
+    <label for="r2" id="l2"></label>
+    <input type="radio" name="r" class="radio" id="r3" value="o3" onclick="checkAns()">
+    <label for="r3" id="l3"></label>
+    <input type="radio" name="r" class="radio" id="r4" value="o4" onclick="checkAns()">
+    <label for="r4" id="l4"></label>
+    <input type="radio" name="r" class="radio" id="r5" value="o5" onclick="checkAns()">
+    <label for="r5" id="l5"></label>
+  </div>
+</div>
+<div id="container2" class="container marginTop2 invis textCentre">
+  <h2 class="tWhite textCentre">Quiz Finished</h2>
+  <div id="endScoreCont" class="tWhite textCentre"></div><br>
+  <div id="longestStreak" class="tWhite"></div>
+  <div id="endPerc" class="tWhite textCentre"></div>
+  <div class="textCentre marginTop2">
+    <div class="circle pulse">
+      <div class="fill">
+      </div>
+      <h3 class="score" id="scorePerc"></h3>
+    </div>
+  </div>
+  <br><br><br>
+    <a href="index.html"><button class="btn btn-block"> Exit</button></a>
+
+</div>
+
+
+
+
+<!-- Modal -->
+<div id="highScoreModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">High Scores</h4>
+      </div>
+      <div class="modal-body">
+        <h3>Highest Streak</h3>
+        <p id="highestStreak"></p>
+        <h3>Average Score</h3>
+        <p id="avgPercentage"></p>
+        <hr>
+        <p id="totqAnswered"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" onclick="resetScores()">Reset High Scores</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+<script src="questionBank.js"></script>
+<script src="testOut.js"></script>
+<script src="logo.js"></script>
+
+
+	
+
+
+
+</script>
+</body>
+</html>

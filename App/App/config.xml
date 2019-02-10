@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="com.Preregistraionpharmacist.examquestions" version="1.0.1" versionCode = "10" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+
+
+<!-- versionCode is optional and Android only -->
+
+  <name>Pre-registration Pharmacist Exam Questions</name>
+
+  <description>
+      An app containing a wide variety of pre-registration pharmacist exam questions 
+  </description>
+
+  <author href="http://www.clinicalpharmacytraining.co.uk" email="clinicalpharmacytraining@gmail.com">
+       Clinical Pharmacy
+  </author>
+
+   <icon src="icon.png" />
+   <content src="index.html"></content>
+   <preference name="phonegap-version" value="cli-8.0.0" />
+</widget>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<script src="Jquery.js"></script>
+	<script src="bootstrap.min.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="snackbar.css">
+<link href="toastr.css" rel="stylesheet"/>
+<script src="toastr.js"></script>
+<script type="text/javascript" src="toastStyle.js"></script>
+
+</head>
+
+
+<body class="grad3">
+<nav class="navbar navbar-fixed-top nav grad2">
+	<a href="index.html"><button type="button" class="btn backBtn"> <span class="glyphicon glyphicon-menu-left"></span></button></a>
+	<div class="calcHeaderMCQ">Inducer vs Inhibitor</div>
+ 
+</nav>
+<br>
+<div class="container marginTop2" id="startContainer">
+<button data-toggle="collapse" data-target="#demo" class="btn btn-block btn-primary">Learn about drug interactions</button>
+<div id="demo" class="collapse tWhite">
+ It is important to know and understand drug interactions as a pharmacist. Knowing the difference between enzyme inducers and inhibitors can help this understanding. The following quiz will help you to remember several important inducers and inhibitors. Remember the Pneumonic:
+  <h4>Enzyme Inhibitors</h4>
+  <ul>
+    <li><b>S</b>odium valproate</li>
+    <li><b>I</b>soniazid</li>
+    <li><b>C</b>imetidine</li>
+    <li><b>K</b>etoconazole</li>
+    <li><b>F</b>luconazole</li>
+    <li><b>A</b>lcohol..binge drinking</li>
+    <li><b>C</b>hloramphenicol</li>
+    <li><b>E</b>rythromycin</li>
+    <li><b>S</b>ulfonamides</li>
+    <li><b>C</b>iprofloxacin</li>
+    <li><b>O</b>meprazole</li>
+    <li><b>M</b>etronidazole</li>
+  </ul>
+  <h4> Enzyme Inducers</h4>
+  <ul>
+    <li><b>S</b>ulphonylureas</li>
+    <li><b>C</b>arbamezapine</li>
+    <li><b>R</b>ifampicin</li>
+    <li><b>A</b>lcohol</li>
+    <li><b>P</b>henytoin</li>
+    <li><b>G</b>riseofulvin</li>
+    <li><b>P</b>henobarbital</li>
+  </ul>
+</div>
+<br>
+<button class="btn btn-block btn-primary" onclick="startQuiz()">Start Quiz</button>
+</div>
+
+
+
+<div class="container marginTop2 invis" id="container1">
+  
+</div>
+<div class="container marginTop2 invis" id="scoreCont">
+  <h2 class="tWhite" id="scoreDisp"></h2>
+  <div class="lineBreak"></div>
+  <a href="index.html"><button class="btn btn-block btn-primary"> Exit</button></a>
+</div>
+
+
+<script type="text/javascript" src="ivi.js"></script>
+<script src="logo.js"></script>
+
+
+</body>
+</html>
