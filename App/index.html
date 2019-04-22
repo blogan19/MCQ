@@ -60,21 +60,27 @@
     <nav class="navbar navbar-default grad2">
   <div class="container-fluid">
     <div class="navbar-header">
-        <a class="calcHeader tWhite" href="#">Pre-Reg Exam Questions</a>
+        <a class="calcHeader tWhite" href="#">Pre-Reg Exam Questions &nbsp;&nbsp;&nbsp;</a>
+        <a onclick="timeUntilExam()" class="btn" id="countdownBtn"><span class="glyphicon glyphicon glyphicon-time"></span></a>
+
     </div>
-    
   </div>
-</nav>      
-   
+</nav>  
 
-
-
-<ul id="tabs-swipe-demo" class="tabs">
-    <li class="tab col s3"><a href="#test-swipe-4" >Quizzes</a></li>
-    <li class="tab col s3"><a href="#test-swipe-1">Extended Match</a></li>
-    <li class="tab col s3"><a  href="#test-swipe-2" class="active">MCQ</a></li>
-    <li class="tab col s3"><a href="#test-swipe-3">Random</a></li>
+<div class="container">
+  <div class="alert alert-success alert-dismissible">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    We hope you make the most out of our app and it helps you on your way to success in the pre-reg exam. If you would like to see additional features or have any feedback you can contact us at clinicapharmacytraining@gmail.com
+  </div>
+</div>    
+<div>
+  <ul id="tabs-swipe-demo" class="tabs">
+      <li class="tab col s3"><a href="#test-swipe-4" >Calcs</a></li>
+      <li class="tab col s3"><a href="#test-swipe-1">Extended Match</a></li>
+      <li class="tab col s3"><a  href="#test-swipe-2" class="active">MCQ</a></li>
+      <li class="tab col s3"><a href="#test-swipe-3">Random</a></li>
   </ul>
+</div>
   <div id="test-swipe-1" class="col s12">
   		<h2 class="tWhite">Extended Matching Questions</h2>
       <div class="container">
@@ -96,6 +102,7 @@
 	  </div> 
   </div>
   <div id="test-swipe-2" class="col s12">
+
   	<h2 class="tWhite">MCQ Questions</h2>
       <div class="container">
 	    <div class="collection">
@@ -115,6 +122,7 @@
           <a href="mcq14.html" class="collection-item waves-effect black-text">Question Set 14<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="mcq14"></a>
           <a href="mcq15.html" class="collection-item waves-effect black-text">Question Set 15<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="mcq15"></a>
           <a href="mcq16.html" class="collection-item waves-effect black-text">Question Set 16<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="mcq16"></a>
+          <a href="mcq17.html" class="collection-item waves-effect black-text">Question Set 17 (Require SPC's)<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="mcq17"></a>
 	     </div>
 	  </div> 
   	
@@ -139,19 +147,7 @@
           </div>
         </div>
     </div>
-    <div class="card">
-            <div class="card-content">
-              <p class="textCentre"> Take a randomly generated test to sharpen your exam skills.</p>
-                 
-            </div>   
-     </div>
-        
-  </div>
-
-  <div id="test-swipe-4" class="col s12">
-    <div class="row">
-    
-          <div class="container">
+     <div class="container">
             <div class="card">
               <div class="card-content">
                 <span class="card-title">Quick Quizzes and Crib Sheets</span>
@@ -177,8 +173,29 @@
 
           </div>
           </div>
+        
+  </div>
+
+  <div id="test-swipe-4" class="col s12">
+    <div class="row">
+      <h2 class="tWhite">Calculation Questions</h2>
+      <div class="container">
+      <div class="collection">
+       <a href="calc1.html" class="collection-item waves-effect black-text">Question Set 1<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="calc1"></span></a>
+       <a href="calc2.html" class="collection-item waves-effect black-text">Question Set 2<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="calc2"></a>
+          <a href="calc3.html" class="collection-item waves-effect black-text">Question Set 3<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="calc3"></a>
+          <a href="calc4.html" class="collection-item waves-effect black-text">Question Set 4<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="calc4"></a>
+          <a href="calc5.html" class="collection-item waves-effect black-text">Question Set 5<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="calc5"></a>
+          <a href="calc6.html" class="collection-item waves-effect black-text">Question Set 6<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="calc6"></a>
+          <a href="calc7.html" class="collection-item waves-effect black-text">Question Set 7<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="calc7"></a>
+          <a href="calc8.html" class="collection-item waves-effect black-text">Question Set 8<span class="new badge #2196f3 blue" data-badge-caption=" in best attempt" id="calc8"></a>
+         
+       </div>
+    </div> 
+          
     </div>
   </div>
+
 
 
 
@@ -204,12 +221,27 @@ $(document).ready(function(){
 
 
    function highScores(){
-   	var mcqScores = ["mcq1","mcq2","mcq3","mcq4","mcq5","mcq6","mcq7","mcq8","mcq9","mcq10","mcq11","mcq12","mcq13","mcq14","mcq16"];
+    var calcScore = ["calc1","calc2","calc3","calc4","calc5","calc6","calc7","calc8"];
+    for(var i = 0; i < calcScore.length; i++){
+      var ca = localStorage.getItem(calcScore[i]);
+      if(ca != null){
+        ca = ((ca/10)*100).toFixed() + "%";
+      }
+      console.log(ca);
+      console.log(calcScore[i]);
+      document.getElementById(calcScore[i]).innerHTML = ca;
+      
+    }
+   	var mcqScores = ["mcq1","mcq2","mcq3","mcq4","mcq5","mcq6","mcq7","mcq8","mcq9","mcq10","mcq11","mcq12","mcq13","mcq14","mcq16","mcq17"];
 
 	   	for(var i = 0; i < mcqScores.length; i++){
 	   		var s  = localStorage.getItem(mcqScores[i]);
+        var d = 10;
 	   		if(s != null){
-	   			s = ((s/10)*100).toFixed() + "%";
+          if(mcqScores[i]== "mcq17"){
+            d = 5;
+          }
+	   			s = ((s/d)*100).toFixed() + "%";
 	   		}	
 	   		console.log(s);
 	   		document.getElementById(mcqScores[i]).innerHTML = s;
@@ -237,6 +269,54 @@ $(document).ready(function(){
    }
 randomHs();
 
+
+function testDate(){
+  var latestExam = new Date("Sep 26, 2019 09:00:00").getTime();
+  var now = new Date().getTime();
+  if(now > latestExam){
+    document.getElementById('countdownBtn').style.display = "none";
+  }
+}
+testDate();
+
+function timeUntilExam(){
+// Set the date we're counting down to
+
+var countDownDate = new Date("Jun 27, 2019 09:00:00").getTime();
+var countDownDate2 = new Date("Sep 26, 2019 09:00:00").getTime();
+// Update the count down every 1 second
+
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+  if ( distance < 0){
+    distance = countDownDate2 - now;
+  }
+  
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  M.toast({html: 'Countdown until exam: ' + days + "d " + hours + "h "
+  + minutes + "m. Good Luck! "})
+
+
+ 
+}
+
+
+
+$(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
+</script>
 
           
 </script>

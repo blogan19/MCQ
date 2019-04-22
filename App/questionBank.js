@@ -242,11 +242,11 @@ var question = [{
 "qNo": "Question 5",
 "q": "In which patient would treatment with doxycycline be inappropriate?",
 "o1": "An 88 year old patient with penicillin allergy for hospital acquired pneumonia",
-"o2": "A 10 year child ",
+"o2": "A 10 year old child",
 "o3": "A patient with stage 4 chronic kidney disease",
 "o4": "A patient with COPD",
-"o5": "A breastfeeding mother",
-"answer": "A breastfeeding mother",
+"o5": "A 13 year old child",
+"answer": "A 10 year old child",
 "answerS": ""
 },{
 "qNo": "Question 6",
