@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="Jquery.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="snackbar.css">
+  <link href="toastr.css" rel="stylesheet"/>
+  <script src="toastr.js"></script>
+</head>
+<body class="grad3">
+<nav class="navbar navbar-fixed-top nav grad2">
+  <a href="index.html"><button type="button" class="btn backBtn"> <span class="glyphicon glyphicon-menu-left"></span></button></a>
+  <div class="calcHeaderMCQ">Question Set 1</div>
+ 
+</nav>
+
+
+<div id="resources" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Formulas and Resources</h4>
+      </div>
+      <div class="modal-body">
+        
+          <h3>Creatinine Clearance (ml/min)</h3>
+          <p>
+            Cockraft-Gault Equation: <br>
+
+            (140-Age) x weight(kg) x factor &#247; serum creatinine<br>
+
+            <i>factor if male = 1.23</i>
+            <i>factor if female = 1.04</i>
+          </p>
+          <hr>
+          <h3>Ideal Body Weight (kg)</h3>
+          <ul>
+            <li>Men: 50 + (2.3 x every inch over 5ft) </li>
+            <li>Women: 45.5 + (2.3 x every inch over 5ft)</li>
+          </ul>
+          <hr>
+          <h3>Adjusted body weight</h3>
+          <p>
+            ABW(kg) = IBW + 0.4(Total Body Weight - IBW) 
+          </p>
+          <hr>
+          <h3>Body Surface Area</h3>
+          <p>
+            BSA (m<sup>2</sup>) = (height (cm) x weight (kg)  &#247; 3600 <br>
+          </p>
+          <hr>
+          <h3>Monofer Dose Calculation</h3>
+          <p>
+           Iron need(mg iron) = Body weight(kg) x (target Hb(g/dl) - Actual Hb(d/gl) ) x 2.4 + iron for iron stores (mg iron)
+          </p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<br>
+
+<div class="lineBreak"></div>
+<div id="container1"></div>
+<div class="container invis padTop70" id="quizFinish">
+  <div class="jumbotron">
+    <h1>Question Set Finished</h1>
+    <div class="lineBreak2"></div>
+    <h3 id="scoreDisp">:</h3>
+    <h4 id="scoreDisp"></h4>
+     <h5 id="highScore"></h5>
+    <div class="lineBreak2"></div>
+    <button type="button" class="btn btn-block bg-1" onclick="viewReport()">View Answer Report</button>
+  </div>
+  <a href="index.html"><button type="button" class="btn btn-block bg-1"> Return to Menu</button></a>
+  <br><br>
+</div>
+
+<div class="container invis tWhite" id="reportJumbo">
+  <h4> Answers: </h4>
+  <div class="jumbotron">
+    <div id="reportList"></div>
+  </div>
+  <a href="index.html"><button type="button" class="btn btn-block bg-1"> Return to Menu</button></a>
+
+</div>
+<div id="snackbarC"><span id="snackCMsg"></span><span class="glyphicon glyphicon-ok floatR"></span></div>
+
+<div id="snackbarI"><span id="snackIMsg"></span><span class="glyphicon glyphicon-remove floatR"></span></div>
+
+<script src="calc1.js"></script>
+<script src="logo.js"></script>
+
+
+  
+
+
+
+</script>
+</body>
+</html>
