@@ -1140,7 +1140,7 @@ var question = [{
 "answerS": "Nitrofurantoin and trimethoprim are not advised in poor renal function and erythromycin + doxycycline are inappropriate choices for UTI"
 },{
 "qNo": "Question 5",
-"q": "You receive the following laboratory results which of the following medications would you expect to be most likely responsible for the results? A patients blood results are the following <ul><li>Serum Sodium 122mmol&sol;L &lpar; 135-145&rpar;</li>><li>Serum Potassium 3.8mmol&sol;L &lpar; 3.5-5.2&rpar;</li>><li>Serum Urea 5.8mmol&sol;L &lpar; 2.5-7.5&rpar;</li>",
+"q": "You receive the following laboratory results which of the following medications would you expect to be most likely responsible for the results? A patients blood results are the following <ul><li>Serum Sodium 122mmol&sol;L &lpar; 135-145&rpar;</li><li>Serum Potassium 3.8mmol&sol;L &lpar; 3.5-5.2&rpar;</li><li>Serum Urea 5.8mmol&sol;L &lpar; 2.5-7.5&rpar;</li>",
 "o1": "Lithium",
 "o2": "Nifedipine",
 "o3": "Ezetimibe",

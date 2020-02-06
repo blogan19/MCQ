@@ -83,14 +83,17 @@
   <div id="endScoreCont" class="tWhite textCentre"></div><br>
   <div id="longestStreak" class="tWhite"></div>
   <div id="endPerc" class="tWhite textCentre"></div>
-  <div class="textCentre marginTop2">
+  <div class="textCentre marginTop2" id="scoreCircle">
     <div class="circle pulse">
       <div class="fill">
       </div>
       <h3 class="score" id="scorePerc"></h3>
     </div>
   </div>
-  <br><br><br>
+  <br><br>
+    <button class="btn btn-block" onclick="feedback()" id="btnFeedback">Feedback</button>
+    <div id="randomFeedback"></div>
+    <br>
     <a href="index.html"><button class="btn btn-block"> Exit</button></a>
 
 </div>

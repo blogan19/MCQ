@@ -1,3 +1,4 @@
+
 var newStreakCount = 0;
 function switchDisplay(){
     $('#lengthDiv').slideUp();
@@ -57,7 +58,10 @@ function setQuestions(){
 var incorrectFeedback ="";
 var score = 0;
 var streakArr = [];
+var answeredQuestions = [];
+var answeredFeedback = [];
 function checkAns(){
+    
     var input = $('input[name=r]:checked', '#form').val();
     var radioId = $('input[name="r"]:checked').attr('id');
 
@@ -71,12 +75,14 @@ function checkAns(){
         lbl.style.color = "#ffffff";
         score++;
         streakArr.push("y");
+        answeredFeedback.push("C");
         add();
     }else{
         lbl.style.backgroundColor = "red";
         lbl.style.color = "#ffffff";
         streakArr.push("n");
         incorrectFeedback = "Correct Answer: " + ans;
+        answeredFeedback.push("I");
         toastI2();
     }
     //disble radio nodes
@@ -84,6 +90,9 @@ function checkAns(){
         radioNode[i].disabled = true;
     }
 
+    answeredQuestions.push(random[count]);
+    console.log(answeredQuestions);
+    console.log(answeredFeedback);
 count++;
 $("#scoreDisp").show();
 $("#scoreDisp").html("Score: " + score + "/" + count);
@@ -199,6 +208,25 @@ function endQuiz(){
 
 }
 
+function feedback(){
+    document.getElementById("btnFeedback").style.display ="none";
+    document.getElementById("scoreCircle").style.display ="none";
+    var fb = "<div class='alert alert-info'>Questions highlighted red are those which you answered incorrectly</div><ul class='list-group'>"
+    var ans;
+    var correctAns;
+    for(i = 0;i<answeredQuestions.length; i++){
+        if(answeredFeedback[i] == "C"){
+            ans = "list-group-item-success"
+            correctAns = "";
+        }else if(answeredFeedback[i] == "I"){
+            ans = "list-group-item-danger";
+            correctAns = "<li class='list-group-item list-group-item-info'>Correct Answer: "+ question[answeredQuestions[i]].answer+"</li>"
+        }
+        fb += "<li class='list-group-item "+ans+"'>"+ question[answeredQuestions[i]].q+"</li>"+correctAns+"<li class='list-group-item'>"+question[answeredQuestions[i]].o1+"</li><li class='list-group-item'>"+question[answeredQuestions[i]].o2+"</li><li class='list-group-item'>"+question[answeredQuestions[i]].o3+"</li><li class='list-group-item'>"+question[answeredQuestions[i]].o4+"</li><li class='list-group-item'>"+question[answeredQuestions[i]].o5+"</li>";
+    }
+    fb+="</ul>"
+    document.getElementById('randomFeedback').innerHTML = fb;
+}
 //localStorage.clear();
 
 
